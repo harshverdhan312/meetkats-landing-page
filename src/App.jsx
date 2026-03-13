@@ -11,9 +11,8 @@ function App() {
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center px-4 py-6">
         <nav className="glass-panel flex items-center justify-between w-full max-w-5xl px-6 py-3 rounded-full border border-white/10">
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className="size-8 bg-primary rounded-lg flex items-center justify-center text-white shadow-[0_0_15px_rgba(33,98,237,0.5)]">
-              <span className="material-symbols-outlined text-xl">hub</span>
-            </div>
+            {/* Replace the src below with the path to your custom logo, e.g., '/logo.svg' or imported logo image */}
+            <img src="/logo.svg" alt="MeetKats Logo" className="h-8 w-auto object-contain" />
             <span className="text-xl font-bold tracking-tight text-white">MeetKats</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -312,9 +311,7 @@ function App() {
       <footer className="py-12 px-6 border-t border-white/5 bg-background-dark">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <div className="size-6 bg-primary rounded flex items-center justify-center text-white">
-              <span className="material-symbols-outlined text-xs">hub</span>
-            </div>
+            <img src="/logo.svg" alt="MeetKats Logo" className="h-6 w-auto object-contain" />
             <span className="text-lg font-bold text-white">MeetKats</span>
           </div>
           <div className="flex gap-8 text-sm text-slate-500">
